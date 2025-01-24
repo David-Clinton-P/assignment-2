@@ -1,0 +1,263 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+
+.quicksand- <uniquifier> {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body {
+    margin:0;
+}
+#header {
+    width: 100%;
+}
+.header-cont {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 130px;
+    margin-right: 130px;
+    gap: 162px;
+}
+.logo-name-cont {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.logo-img-1 {
+    width: 65px;
+    height: 65px;
+}
+.logo-name {
+    font-family: Quicksand;
+    font-size: 32px;
+}
+.header-nav-cont {
+    display: flex;
+    align-items: center;
+}
+.header-nav {
+    display: flex;
+    list-style: none;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    gap: 35px;
+    cursor: pointer;
+}
+.nav-li-1 {
+    color: rgba(254, 163, 1, 1);
+}
+.nav-li-2 {
+    color: rgba(1, 172, 253, 1);
+}
+.nav-li-3 {
+    color: rgba(5, 212, 223, 1);
+}
+.nav-li-4 {
+    color: rgba(93, 88, 239, 1);
+}
+.header-btn-cont {
+    display: flex;
+    align-items: center;
+}
+.header-btn {
+    background-color: rgba(254, 163, 1, 1);
+    color: whitesmoke;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    cursor: pointer;
+}
+#section-1 {
+    width: 100%;
+    margin-top: 20px;
+}
+.sec-1-cont {
+    display: flex;
+    margin-left: 130px;
+    margin-right: 130px;
+    gap: 47px;
+}
+.sec-1-other-cont {
+    margin-top: 100px;
+}
+.empower {
+    font-family: Quicksand;
+    font-size: 56px;
+    color: rgba(254, 163, 1, 1);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.student {
+    font-family: Quicksand;
+    font-size: 56px;
+    color: rgba(17, 17, 17, 1);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.age-towards-cont {
+    display: flex;
+    gap: 12px;
+}
+.age {
+    font-family: Quicksand;
+    font-size: 56px;
+    color: rgba(17, 17, 17, 1);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.towards {
+    font-family: Quicksand;
+    font-size: 56px;
+    color: rgba(1, 172, 253, 1);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.sec-1-p-cont {
+    font-family: Quicksand;
+    font-size: 19px;
+}
+.sec-1-btn-cont {
+    margin-top: 23px;
+}
+.sec-1-btn {
+    background-color: rgba(17, 17, 17, 1);
+    color: whitesmoke;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    cursor: pointer;
+}
+.sec-1-img {  
+    image-resolution: 100px;
+}
+#section-2 {
+    background-image: url(assets/bg.png);
+    width: 100%;
+}
+.section-2-h {
+    font-family: Quicksand;
+    font-size: 44px;
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+}
+.sec-2-box-cont {
+    margin-top: 76px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.sec-2-box-1 {
+    background: linear-gradient(to bottom, rgba(222, 245, 255, 1), rgba(255, 255, 255, 0));
+    width: 348px;
+    height: 452px;
+    border-radius: 22px;
+}
+.sec-2-box-img {
+    margin-left: 110px;
+    margin-top: 60px;
+}
+.sec-2-box-h {
+    font-family: Quicksand;
+    font-size: 23px;
+    text-align: center;
+}
+.sec-2-box-p {
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(128, 128, 128, 1);
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    
+}
+.box-read-more-1 {
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    color: rgba(100, 200, 255, 1);
+    margin-top: 20px;
+    cursor: pointer;
+}
+.sec-2-box-2 {
+    background: linear-gradient(to bottom, rgba(255, 244, 220, 1), rgba(255, 255, 255, 0));
+    width: 348px;
+    height: 452px;
+    border-radius: 22px;
+}
+.box-read-more-2 {
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    color: rgba(240, 170, 0, 1);
+    margin-top: 20px;
+    cursor: pointer;
+}
+.sec-2-box-3 {
+    background: linear-gradient(to bottom, rgba(242, 232, 255, 1), rgba(255, 255, 255, 0));
+    width: 348px;
+    height: 452px;
+    border-radius: 22px;
+}
+.box-read-more-3 {
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+    color: rgba(135, 0, 255, 1);
+    margin-top: 20px;
+    cursor: pointer;
+}
+.sec-2-btn-cont {
+    display: flex;
+    justify-content: center;
+    margin-top: 76px;
+    gap: 10px;
+}
+.sec-2-btn-1 {
+    background-color: rgba(254, 163, 1, 1);
+    color: white;
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 35px;
+    height: 64px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+.sec-2-btn-2 {
+    background-color: rgba(254, 163, 1, 1);
+    color: white;
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 35px;
+    height: 64px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
